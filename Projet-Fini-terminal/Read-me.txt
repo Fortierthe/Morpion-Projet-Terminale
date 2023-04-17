@@ -1,6 +1,0 @@
-Voici le projet de fin d'année de Théo Fortier et Flavian Charpy. 
-Pour y accéder il suffit de lancer sous spyder le fichier nommé "Flask.py", ensuite l'éxecuter et d'aller sur le site donnée en console.
-Le fichier "database.db" correspond à une base de donnée qui contient les statistiques des joueurs. 
-Le fichier "Morpion.py" correspond au jeu du morpion qu'on avait réalisé au début du projet pour qu'il fonctionne mais simplement dans la console de python.
-Dans le fichier "templates", il y a les trois pages HTML qu'on utilise dans le programme.
-Dans le fichier "static", il y a les deux fichier CSS qu'on utilise dans le programme.
