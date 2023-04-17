@@ -1,4 +1,4 @@
-# Morpion-Projet-terminale-
+# Morpion-Projet-Terminale
 School project for my last year of high school 
 
 Voici le projet de fin d'année de Théo Fortier et Flavian Charpy. 
