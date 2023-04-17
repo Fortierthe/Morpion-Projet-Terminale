@@ -1,2 +1,4 @@
 # Morpion-Projet-terminale-
-Terminal class school project
+School project for my last year of high school 
+
+
