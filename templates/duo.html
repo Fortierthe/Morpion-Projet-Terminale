@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="fr"> 
+
+<head>
+
+    <meta charset="utf-8" />                                                
+
+  <title>Provisoire</title>  
+
+   <link href="{{ url_for('static', filename='lecss.css') }}" rel="stylesheet" type="text/css" />
+    
+</head>
+<body> 
+
+  <h1>Le jeu du morpion</h1>
+
+
+  <h4>Le but du jeu</h4>
+
+  <p> Aligner horizontalement, verticalement ou en diagonal trois croix/rond pour gagner la partie </p><br>
+
+  <form action="http://127.0.0.1:5000/jeu-duo?" method="get">
+  
+   
+
+  <p class = "input"> 
+  Joueur en croix : <input type="text" name="croix" />
+  Joueur en rond : <input type="text" name="rond" /></p>
+  
+  <div id="Jeu">
+    <div>
+      <button name="bouton" value="1"> {{ un }}</button>
+      <button name="bouton" value="2"> {{ deux }}</button>
+      <button name="bouton" value="3"> {{ trois }}</button>
+    </div>
+    <div> 
+      <button name="bouton" value="4"> {{ quatre }}</button>
+      <button name="bouton" value="5"> {{ cinq }}</button>
+      <button name="bouton" value="6"> {{ six }}</button>
+    </div>
+    <div>
+      <button name="bouton" value="7"> {{ sept }}</button>
+      <button name="bouton" value="8"> {{ huit }}</button>
+      <button name="bouton" value="9"> {{ neuf }}</button>
+    </div>
+  </div> 
+    
+    <p class = "Message">{{ text }}</p> 
+    
+    </form> 
+    <a href="http://127.0.0.1:5000/" class = "lien"> Nouvelle partie </a>
+</body>
+
+</html>
